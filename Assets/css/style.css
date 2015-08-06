@@ -1,6 +1,5 @@
 body {
   background: url("../img/laptop-bg.jpg");
-  background-repeat: no-repeat;
   background-position: center;
   text-align: center;
   font-family: 'Advent Pro', sans-serif;
@@ -23,5 +22,4 @@ div.send-email{
 }
 div.container{
   margin-top: 200px;
-  margin-bottom: auto;
 }
