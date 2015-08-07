@@ -1,5 +1,5 @@
 body {
-  background: url("../img/laptop-bg.jpg");
+  background: url("../img/laptop-bg.jpg") no-repeat;
   background-position: center;
   text-align: center;
   font-family: 'Advent Pro', sans-serif;
