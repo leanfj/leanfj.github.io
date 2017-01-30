@@ -1,21 +1,79 @@
 @import 'https://fonts.googleapis.com/css?family=Roboto:300,400,500';
-
+html {
+    background: #f8f5ec;
+}
 body {
     font-family: "Roboto", "Helvetica", "Arial", sans-serif;
     color: #555;
 }
 .container {
-    margin: 0 auto;
-    width: 940px;
+    width: 100%;
+    position: absolute;
+}
+.wrap {
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.hero {
+    height: 200px;
+    background: #2d2d2d;
+    color: #e9e9e9;
+    font-weight: 300;
+    text-align: center;
+    width: 100%;
+
+}
+.hero h1 {
+    padding-top: 50px;
 }
 ul {
     list-style: none;
 }
-#navegacao {
-    text-align: right;
+.nav-main {
+    background: #222;
+    color: #fafafa;
+    position: fixed;
+    top: 0;
+    height: 50px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.5);
+    width: 100%;
+    z-index: 100;
+
+}
+#navegacao ul li a {
+    color: #ddd;
+    text-decoration: none;
 }
 #navegacao ul li{
-    display: inline-block;
-    margin-left: 10px;
-
+    flex-grow: 1;
+    margin: 10px;
+    padding: 5px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+#navegacao ul {
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+.contatos {
+    background: #222;
+    color: #fafafa;
+    top: 0;
+    height: 200px;
+    box-shadow: inset 0 10px 10px -5px #0d1116;
+    width: 100%;
+}
+footer {
+    padding-top: 20px;
+}
+.contatos footer ul li a {
+    color: #ddd;
+    text-decoration: none;
+}
+.contatos footer ul li {
+    margin: 10px;
 }
