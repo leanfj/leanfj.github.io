@@ -5,10 +5,11 @@ html {
 body {
     font-family: "Roboto", "Helvetica", "Arial", sans-serif;
     color: #555;
+    margin: 0;
 }
 .container {
     width: 100%;
-    position: absolute;
+
 }
 .box {
     max-width: 960px;
