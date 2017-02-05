@@ -12,14 +12,15 @@ body {
 
 }
 .box {
-    max-width: 960px;
+    max-width: 920px;
     margin-left: auto;
     margin-right: auto;
-    padding-left: 20px;
-    padding-right: 20px;
+/*    padding-left: 20px;*/
+/*    padding-right: 20px;*/
 }
 .nome {
-    height: 280px;
+    height: 300px;
+/*    height: 100vh;  */
     background: #2d2d2d;
     color: #e9e9e9;
     font-weight: 300;
@@ -40,9 +41,9 @@ ul {
 .nav-main {
     background: #222;
     color: #fafafa;
-    position: fixed;
+    position: absolute;
     top: 0;
-    height: 50px;
+    height: 60px;
     box-shadow: 0 0 5px rgba(0,0,0,0.5);
     width: 100%;
     z-index: 100;
@@ -65,12 +66,20 @@ ul {
     text-align: center;
     margin-top: 15px;
 }
-
-
 #navegacao ul {
     display: flex;
-    padding: 0;
+    padding-top: 5px;
     margin: 0;
+}
+#conhecimentos a, #portifolio a {
+  color: #000;
+  text-decoration: none;
+  box-shadow: inset 0 -2px #000;
+}
+#conhecimentos a:hover, #portifolio a:hover {
+  box-shadow:inset 0 -18px #000;
+  transition: box-shadow 0.3s ;
+  color: #fff;
 }
 .contatos {
     background: #222;
