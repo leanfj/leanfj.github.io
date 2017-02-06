@@ -1,26 +1,24 @@
 @import 'https://fonts.googleapis.com/css?family=Roboto:300,400,500';
-html {
-    background: #f8f5ec;
+* {
+  box-sizing: content-box;
 }
+
 body {
     font-family: "Roboto", "Helvetica", "Arial", sans-serif;
     color: #555;
     margin: 0;
+    background: #f8f5ec;
 }
-.container {
-    width: 100%;
-
+ul {
+    list-style: none;
 }
 .box {
     max-width: 920px;
     margin-left: auto;
     margin-right: auto;
-/*    padding-left: 20px;*/
-/*    padding-right: 20px;*/
 }
 .nome {
-    height: 300px;
-/*    height: 100vh;  */
+    height: 200px;
     background: #2d2d2d;
     color: #e9e9e9;
     font-weight: 300;
@@ -30,29 +28,16 @@ body {
     justify-content: space-around;
     align-items: center;
 
+}
 
-}
-.nome h1 {
-    padding-top: 50px;
-}
-ul {
-    list-style: none;
-}
 .nav-main {
     background: #222;
-    color: #fafafa;
-    position: absolute;
-    top: 0;
-    height: 60px;
-    box-shadow: 0 0 5px rgba(0,0,0,0.5);
     width: 100%;
-    z-index: 100;
 
 }
 #navegacao ul li a {
     color: #ddd;
     text-decoration: none;
-    background: #222;
     padding: 10px 20px;
     border: 2px solid #e9e9e9;
 }
@@ -62,14 +47,19 @@ ul {
     background: #e9e9e9;
 }
 #navegacao ul li{
-    flex-grow: 1;
-    text-align: center;
-    margin-top: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
 }
 #navegacao ul {
     display: flex;
-    padding-top: 5px;
+    justify-content: space-around;
+    flex-wrap: wrap;
     margin: 0;
+    padding: 0;
+}
+.main {
+  padding-left: 20px;
 }
 #conhecimentos a, #portifolio a {
   color: #000;
@@ -88,9 +78,10 @@ ul {
     height: 200px;
     box-shadow: inset 0 10px 10px -5px #0d1116;
     width: 100%;
+
 }
 footer {
-    padding-top: 20px;
+    padding: 20px;
 }
 .contatos footer ul li a {
     color: #ddd;
