@@ -30,7 +30,7 @@ h3 {
     color: #e9e9e9;
     font-weight: bold;
     width: 100%;
-    height: 50vh;
+    min-height: 50vh;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -47,7 +47,8 @@ h3 {
     box-shadow: inset 0 10px 10px -5px #0d1116;
 }
 .nome a {
-    margin-top: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     padding: 10px 20px;
     letter-spacing: 2px;
     text-decoration: none;
@@ -184,4 +185,8 @@ h3 {
     #navegacao ul li {
         margin: 15px;
     }
+    .nome{
+        height: 100vh;
+    }
+
 }
