@@ -66,7 +66,9 @@ h3 {
     background: #222;
     width: 100%;
 }
-
+.menu {
+    display: none;
+}
 #navegacao ul li a {
     color: #ddd;
     text-decoration: none;
@@ -162,8 +164,8 @@ h3 {
         padding-top: 10px;
         padding-bottom: 10px;
     }
-    .nav-main:after {
-        content: "Menu";
+    .menu {
+        display: block;
         color: #fafafa;
         text-align: center;
         padding: 5px;
@@ -186,7 +188,7 @@ h3 {
         margin: 15px;
     }
     .nome{
-        height: 100vh;
+        min-height: 100vh;
     }
 
 }

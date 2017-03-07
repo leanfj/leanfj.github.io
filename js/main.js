@@ -1,5 +1,5 @@
 
-$( ".nav-main" ).click(function() {
+$( ".menu" ).click(function() {
 	$( "#navegacao" ).slideToggle( "slow", function() {
 	});
 });
