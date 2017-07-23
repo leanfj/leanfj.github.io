@@ -1,152 +1,90 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="pt-br">
 <head>
   <meta charset="UTF-8">
-  <title>CV Leandro Ferreira - Desenvolvedor Front-End</title>
+  <title>Leandro Ferreira - Desenvolvedor Front-End</title>
   <link rel="stylesheet" href="css/style.css">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
-
 <body>
-  <div class="container">
-    <div class="nav-main">
-      <div class="menu">Menu</div>
-      <nav id="navegacao" class="box">
-        <ul>
-          <li><a href="#sobre">Sobre</a></li>
-          <li><a href="#conhecimentos">Conhecimentos</a></li>
-          <li><a href="#experiencias">Experiências</a></li>
-          <li><a href="#cursos">Cursos</a></li>
-          <li><a href="#portifolio">Portifólio</a></li>
-          <li><a href="#servicos">Serviços</a></li>
-          <li><a href="#contatos">Contatos</a></li>
+  <header id="sobre" class="sobre">
+      <nav class="navegacao">
+        <ul class="navegacao__lista">
+          <li><a href="#about" class="navegacao__lista__item">Sobre</a></li>
+          <li><a href="#skills" class="navegacao__lista__item">Habilidades</a></li>
+          <li><a href="#portfolio" class="navegacao__lista__item">Portifólio</a></li>
+          <li><a href="#contact" class="navegacao__lista__item">Contato</a></li>
         </ul>
       </nav>
-    </div>
-    <header class="nome">
-        <h1>Leandro Ferreira</h1>
-        <h2>Desenvolvedor Front-End JR</h2>
-        <a href="assets/LeandroFerreiradeJesusCV-DesenvolvedorFront-End.pdf" target="_blank">download curriculum</a>
-    </header>
-    <div class="main box">
-      <section id="sobre">
-        <h3>Sobre</h3>
-        <p>Estudande de desenvolvimento Web </p>
-      </section>
-      <section id="conhecimentos">
-        <h3>Conhecimentos</h3>
-        <ul>
-          <li>Front-End
-            <ul>
-              <li>HTML</li>
-              <li>CSS</li>
-              <li>JavaScript</li>
-              <li>PHP</li>
-              <!--Front-End-->
-            </ul>
-          </li>
-          <li>Back-End
-            <ul>
-              <!--BackEnd-->
-            </ul>
-          </li>
-          <li>Frameworks/Bibliotecas
-            <ul>
-              <li>CSS
-                <ul>
-                  <li>BootStrap</li>
-                </ul>
-              </li>
-              <li>JS
-                <ul>
-                  <li>Jquery</li>
-                </ul>
-              </li>
-              <!--FrameWorks-->
-            </ul>
-          </li>
-          <li>Ferramentas para desenvolvimento Web
-            <ul>
-              <li>Editores de código
-                <ul>
-                  <li><a href="http://brackets.io/">Brackets</a></li>
-                  <li><a href="https://www.sublimetext.com/3">Sublime Text3</a></li>
-                  <li><a href="https://code.visualstudio.com/">Visual Studio Code</a></li>
-                </ul>
-              </li>
-              <li>Versionamento
-                <ul>
-                  <li><a href="https://git-scm.com/">Git</a></li>
-                </ul>
-              </li>
-              <li>Pré-processadores
-                <ul>
-                  <li><a href="http://sass-lang.com/">Sass</a></li>
-                </ul>
-              </li>
-              <li>Automatizadores
-                <ul>
-                  <li><a href="http://gulpjs.com/">Gulp</a></li>
-                  <li><a href="https://browsersync.io/">Browsersync</a></li>
-                </ul>
-              </li>
-              <li>Gerenciadores de Pacotes
-                <ul>
-                  <li><a href="https://www.npmjs.com/">NPM</a></li>
-                </ul>
-              </li>
-            </ul>
-          </li>
-          <li>Idiomas
-            <ul>
-              <li>Inglês (Intemediário)</li>
-            </ul>
-          </li>
-        </ul>
-      </section>
-      <section id="experiencias">
-        <h3>Experiências</h3> 
-        <ul>
-          <li>Desenvolvimento de Sites Freelancer</li>
-        </ul>
-      </section>
-      <section id="cursos">
-        <h3>Cursos livres</h3> 
-        <ul>
-          <li>HTML, CSS, and Javascript for Web Developers - COURSERA - Johns Hopkins University </li>
-        </ul>
-      </section>
-
-      <section id="portifolio">
-        <h3>Protfólio</h3>
-        <ul>
-          <li><a href="https://github.com/leanfj">GitHub</a></li>
-          <li><a href="http://codepen.io/leanfj/">CodePen</a></li>
-        </ul>
-      </section>
-      <section id="servicos">
-        <h3>Serviços</h3>
-        <ul>
-          <li>
-            Desenvolvimento de Sites
-            <!--Serviços-->
-          </li>
-        </ul>
-      </section>
-    </div>
-    <footer id="contatos">
-      <div class="box">
-        <h3>Contatos</h3>
-        <ul>
-          <li> <a href="https://github.com/leanfj">GitHub</a> </li>
-          <li> <a href="https://br.linkedin.com/in/leandro-ferreira-de-jesus-275174b7">LinkedIn</a> </li>
-          <li> <a href="mailto:leanfj@hotmail.com">E-mail</a> </li>
-        </ul>
+      <div class="nome">
+        <h1 class="nome__titulo">Leandro <span class="nome__titulo--light">Ferreira</span></h1>
+        <h2 class="nome__cargo"><span class="nome__cargo--light">Desenvolvedor </span>Front-End</h2>
+        <p class="nome__texto">Olá, meu nome é Leandro e eu sou estudante do Curso de Tecnologia em Análise e Desenvolvimento de Sitemas na Universidade UNIGRANRIO. Estou me especializando no desenvolvimento Front-End.</p>
       </div>
+    </header>
+    <main>
+      <section id="habilidades" class="habilidades">
+            <i class="fa fa-code"></i>
+            <h2 class="habilidades__titulo"><span class="habilidades__titulo--light">Front-</span>End</h2>
+            <p class="habilidades__texto"> No momento estou desenvolvendo alguns projetos utilizando as tecnologias ligadas ao desenvolvimento Front-End, HTML, CSS, JS</p>
+      </section>
+      <section id="portfolio">
+            <div class="portfolio">
+              <h2 class="portfolio__titulo">Portifólio</h2>
+              <p class="portfolio__texto">Veja os meus últimos trabalhos</p>
+              <p class="portfolio__texto">Minhas páginas com portfólios</p>
+              <ul class="portfolio__lista">
+                <li class="portfolio__lista__item"><a href="https://github.com/leanfj" target="_blank"><i class="fa fa-github" aria-hidden="true"></i> GitHub</a></li>
+                <li class="portfolio__lista__item"><a href="http://codepen.io/leanfj/" target="_blank"><i class="fa fa-codepen" aria-hidden="true"></i> CodePen</a></li>
+                <li class="portfolio__lista__item"><a href="https://www.freecodecamp.com/leanfj" target="_blank"><i class="fa fa-free-code-camp" aria-hidden="true"></i> FreeCodeCamp</a></li>
+              </ul>
+            </div>
+            <div class="ultimos-trabalhos">
+              <p class="ultimos-trabalhos__texto">Últimos trabalhos</p>
+              <ul class="ultimos-trabalhos__lista">
+                <li class="ultimos-trabalhos__lista__item"><a href="https://leanfj.github.io/Coursera-HTML-CSS-and-Javascript-for-Web-Developers/site/" target="_blank">
+            			<img src="http://i.imgur.com/7M2AN90.jpg" width="300" height="200">
+          			</a></li>
+                <li class="ultimos-trabalhos__lista__item"><a href="https://leanfj.github.io/dayartedesign-wp/" target="_blank">
+            			<img src="http://i.imgur.com/baMpXCu.jpg" width="300" height="200">
+          			</a></li>
+                <li class="ultimos-trabalhos__lista__item"><a href="https://leanfj.github.io/CAELUM-Treinamento-Desenvolvimento-Web-com-HTML-CSS-e-JavaScript/" target="_blank">
+            			<img src="http://i.imgur.com/DNjTi8C.jpg" width="300" height="200">
+          			</a></li>
+                <li class="ultimos-trabalhos__lista__item"><a href="http://codepen.io/leanfj/full/BWMqZb/" target="_blank">
+            			<img src="http://i.imgur.com/1EZNvXD.jpg" width="300" height="200">
+                </a></li>
+              </ul>
+            </div>
+      </section>
+      <section id="contato" class="contato">
+          <div class="conexoes">
+            <h2 class="conexoes__titulo">Fique <span class="conexoes__titulo--light">Conectado</span></h2>
+            <ul class="conexoes__lista">
+              <li><a href="tel:21982739265"><i class="fa fa-phone" aria-hidden="true"></i> Telefone</a></li>
+              <li><a href="https://twitter.com/leanfj" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i> Twitter</a></li>
+              <li><a href="mailto:leanfj@hotmail.com"><i class="fa fa-envelope-o" aria-hidden="true"></i> Email</a></li>
+              <li><a href="https://www.linkedin.com/in/leandro-ferreira-de-jesus-275174b7/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i> Linkedin</a></li>
+            </ul>
+          </div>
+          <div class="contact-form">
+            <h3>Quer <span>mais detalhes</span></h3>
+            <h3><span>Entre</span> em contato</h3>
+            <form action="https://formspree.io/leanfj@hotmail.com" method="POST">
+              <input type="text" name="name" value="" placeholder="Nome">
+              <input type="email" name="_replyto" value="" placeholder="Email">
+              <input type="hidden" name="_subject" value="Novo contato">
+              <input type="hidden" name="_cc" value="leanfjdev@gmail.com">
+              <input type="text" name="_gotcha" style="display:none" >
+              <textarea rows="5" cols="30" placeholder="Digite sua mensagem" name="body"></textarea>
+              <button type="submit" value="Send">Enviar</button>
+            </form>
+          </div>
+      </section>
+    </main>
+    <footer>
+        <p>Code by <a href="https://github.com/leanfj" target="_blank">Leandro Ferreira</a></p>
     </footer>
-
-  </div>
   <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
   <script src="js/main.js"></script>
   <script>

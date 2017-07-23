@@ -1,0 +1,63 @@
+//GRADIENTES
+=gradient($angle,$gradient1, $gradient2)
+  background-color: $gradient2
+  background-image: -webkit-gradient(linear, $angle, from($gradient1), to($gradient2))
+  background-image: -webkit-linear-gradient($angle, $gradient1, $gradient2)
+  background-image:    -moz-linear-gradient($angle, $gradient1, $gradient2)
+  background-image:     -ms-linear-gradient($angle, $gradient1, $gradient2)
+  background-image:      -o-linear-gradient($angle, $gradient1, $gradient2)
+  background-image:         linear-gradient($angle, $gradient1, $gradient2)
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=$angle,StartColorStr='#{$gradient1}', EndColorStr='#{$gradient2}')
+
+// TRANSITION
+=transition($transition...)
+  -moz-transition:    all $transition linear
+  -o-transition:      all $transition linear
+  -webkit-transition: all $transition linear
+  transition:         all $transition linear
+
+//BORDER
+=border-radius($radius)
+  -webkit-border-radius: $radius
+  -moz-border-radius: $radius
+  -ms-border-radius: $radius
+  border-radius: $radius
+
+
+//FONT
+@function calculateRem($size)
+  $remSize: $size / 16px
+  @return $remSize * 1rem
+
+=font-size($size)
+  font-size: $size
+  font-size: calculateRem($size)
+
+=responsive-font($responsive, $min, $max: false, $fallback: false)
+  $responsive-unitless: $responsive / ($responsive - $responsive + 1)
+  $dimension: if(unit($responsive) == "vh", "height", "width")
+  $min-breakpoint: $min / $responsive-unitless * 100
+
+  @media (max-#{$dimension}: #{$min-breakpoint})
+    font-size: $min
+
+  @if $max
+    $max-breakpoint: $max / $responsive-unitless * 100
+
+    @media (min-#{$dimension}: #{$max-breakpoint})
+      font-size: $max
+
+  @if $fallback
+    font-size: $fallback
+
+  font-size: $responsive
+
+//OPACIDADE
+=opacity($opacity)
+  opacity: $opacity
+  $opacity-ie: $opacity * 100
+  filter: alpha(opacity=$opacity-ie)
+
+=background-opacity($color: #000, $opacity: 0.85)
+  background: $color
+  background: rgba($color, $opacity)
