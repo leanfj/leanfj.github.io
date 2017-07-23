@@ -3,8 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <title>Leandro Ferreira - Desenvolvedor Front-End</title>
-  <link rel="stylesheet" href="css/style.css">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/plugins.css">
+  <link rel="stylesheet" href="css/geral.css">
 </head>
 <body>
   <header id="sobre" class="sobre">
@@ -61,29 +62,31 @@
           <div class="conexoes">
             <h2 class="conexoes__titulo">Fique <span class="conexoes__titulo--light">Conectado</span></h2>
             <ul class="conexoes__lista">
-              <li><a href="tel:21982739265"><i class="fa fa-phone" aria-hidden="true"></i> Telefone</a></li>
-              <li><a href="https://twitter.com/leanfj" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i> Twitter</a></li>
-              <li><a href="mailto:leanfj@hotmail.com"><i class="fa fa-envelope-o" aria-hidden="true"></i> Email</a></li>
-              <li><a href="https://www.linkedin.com/in/leandro-ferreira-de-jesus-275174b7/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i> Linkedin</a></li>
+              <li class="conexoes__lista__item"><a href="tel:21982739265"><i class="fa fa-phone" aria-hidden="true"></i> Telefone</a></li>
+              <li class="conexoes__lista__item"><a href="https://twitter.com/leanfj" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i> Twitter</a></li>
+              <li class="conexoes__lista__item"><a href="mailto:leanfj@hotmail.com"><i class="fa fa-envelope-o" aria-hidden="true"></i> Email</a></li>
+              <li class="conexoes__lista__item"><a href="https://www.linkedin.com/in/leandro-ferreira-de-jesus-275174b7/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i> Linkedin</a></li>
             </ul>
           </div>
-          <div class="contact-form">
-            <h3>Quer <span>mais detalhes</span></h3>
-            <h3><span>Entre</span> em contato</h3>
-            <form action="https://formspree.io/leanfj@hotmail.com" method="POST">
-              <input type="text" name="name" value="" placeholder="Nome">
-              <input type="email" name="_replyto" value="" placeholder="Email">
+          <div class="form-contato">
+            <h3 class="form-contato__titulo">Quer <span class="form-contato__titulo--light">mais detalhes</span></h3>
+            <h3 class="form-contato__titulo"><span class="form-contato__titulo--light">Entre</span> em contato</h3>
+            <form action="https://formspree.io/leanfj@hotmail.com" method="POST" class="formulario">
+              <input type="text" name="name" value="" placeholder="Nome" class="formulario__nome">
+              <input type="email" name="_replyto" value="" placeholder="Email" class="formulario__email">
               <input type="hidden" name="_subject" value="Novo contato">
               <input type="hidden" name="_cc" value="leanfjdev@gmail.com">
-              <input type="text" name="_gotcha" style="display:none" >
-              <textarea rows="5" cols="30" placeholder="Digite sua mensagem" name="body"></textarea>
-              <button type="submit" value="Send">Enviar</button>
+              <input type="text" name="_gotcha" style="display:none">
+              <textarea placeholder="Digite sua mensagem" name="body" class="formulario__mensagem"></textarea>
+              <button type="submit" value="Send" class="formulario__button">Enviar</button>
             </form>
           </div>
       </section>
     </main>
-    <footer>
-        <p>Code by <a href="https://github.com/leanfj" target="_blank">Leandro Ferreira</a></p>
+    <footer class="rodape">
+        <div class="rodape__texto">
+          Code by <a href="https://github.com/leanfj" target="_blank">Leandro Ferreira</a>
+        </div>
     </footer>
   <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
   <script src="js/main.js"></script>
@@ -92,10 +95,8 @@
     (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
     m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
     })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
     ga('create', 'UA-93164530-1', 'auto');
     ga('send', 'pageview');
   </script>
 </body>
-
 </html>
