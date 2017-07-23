@@ -8,86 +8,97 @@
   <link rel="stylesheet" href="css/geral.css">
 </head>
 <body>
-  <header id="sobre" class="sobre">
-      <nav class="navegacao">
-        <ul class="navegacao__lista">
-          <li><a href="#about" class="navegacao__lista__item">Sobre</a></li>
-          <li><a href="#skills" class="navegacao__lista__item">Habilidades</a></li>
-          <li><a href="#portfolio" class="navegacao__lista__item">Portifólio</a></li>
-          <li><a href="#contact" class="navegacao__lista__item">Contato</a></li>
+<header>
+  <div id="sobre" class="sobre">
+    <nav class="navegacao">
+      <ul class="navegacao__lista">
+        <li><a href="#about" class="navegacao__lista__item">Sobre</a></li>
+        <li><a href="#skills" class="navegacao__lista__item">Habilidades</a></li>
+        <li><a href="#portfolio" class="navegacao__lista__item">Portifólio</a></li>
+        <li><a href="#contact" class="navegacao__lista__item">Contato</a></li>
+      </ul>
+    </nav>
+    <div class="nome">
+      <h1 class="nome__titulo">Leandro <span class="nome__titulo--light">Ferreira</span></h1>
+      <h2 class="nome__cargo"><span class="nome__cargo--light">Desenvolvedor </span>Front-End</h2>
+      <p class="nome__texto">Olá, meu nome é Leandro e eu sou estudante do Curso de Tecnologia em Análise e Desenvolvimento de Sitemas na Universidade UNIGRANRIO. Estou me especializando no desenvolvimento Front-End.</p>
+    </div>
+  </div>
+</header>
+<main>
+  <section>
+    <div id="habilidades" class="habilidades">
+      <i class="fa fa-code"></i>
+      <h2 class="habilidades__titulo"><span class="habilidades__titulo--light">Front-</span>End</h2>
+      <p class="habilidades__texto"> No momento estou desenvolvendo alguns projetos utilizando as tecnologias ligadas ao desenvolvimento Front-End, HTML, CSS, JS</p>
+      <ul class="habilidades__lista">
+        <li class="habilidade__lista__item"><i class="fa fa-html5"></i></li>
+        <li class="habilidade__lista__item"><i class="fa fa-css3"></i></li>
+        <li class="habilidade__lista__item"><i class="fa fa-javascript"></i></li>
+      </ul>
+    </div>
+  </section>
+  <section >
+    <div id="portfolio" class="portfolio">
+      <h2 class="portfolio__titulo">Portifólio</h2>
+      <p class="portfolio__texto">Veja os meus últimos trabalhos</p>
+      <p class="portfolio__texto">Minhas páginas com portfólios</p>
+      <ul class="portfolio__lista">
+        <li class="portfolio__lista__item"><a href="https://github.com/leanfj" target="_blank"><i class="fa fa-github" aria-hidden="true"></i> GitHub</a></li>
+        <li class="portfolio__lista__item"><a href="http://codepen.io/leanfj/" target="_blank"><i class="fa fa-codepen" aria-hidden="true"></i> CodePen</a></li>
+        <li class="portfolio__lista__item"><a href="https://www.freecodecamp.com/leanfj" target="_blank"><i class="fa fa-free-code-camp" aria-hidden="true"></i> FreeCodeCamp</a></li>
+      </ul>
+    </div>
+    <div class="ultimos-trabalhos">
+      <p class="ultimos-trabalhos__texto">Últimos trabalhos</p>
+      <ul class="ultimos-trabalhos__lista">
+        <li class="ultimos-trabalhos__lista__item"><a href="https://leanfj.github.io/Coursera-HTML-CSS-and-Javascript-for-Web-Developers/site/" target="_blank">
+    			<img src="http://i.imgur.com/7M2AN90.jpg" width="300" height="200">
+  			</a></li>
+        <li class="ultimos-trabalhos__lista__item"><a href="https://leanfj.github.io/dayartedesign-wp/" target="_blank">
+    			<img src="http://i.imgur.com/baMpXCu.jpg" width="300" height="200">
+  			</a></li>
+        <li class="ultimos-trabalhos__lista__item"><a href="https://leanfj.github.io/CAELUM-Treinamento-Desenvolvimento-Web-com-HTML-CSS-e-JavaScript/" target="_blank">
+    			<img src="http://i.imgur.com/DNjTi8C.jpg" width="300" height="200">
+  			</a></li>
+        <li class="ultimos-trabalhos__lista__item"><a href="http://codepen.io/leanfj/full/BWMqZb/" target="_blank">
+    			<img src="http://i.imgur.com/1EZNvXD.jpg" width="300" height="200">
+        </a></li>
+      </ul>
+    </div>
+  </section>
+  <section>
+    <div id="contato" class="contato">
+      <div class="conexoes">
+        <h2 class="conexoes__titulo">Fique <span class="conexoes__titulo--light">Conectado</span></h2>
+        <ul class="conexoes__lista">
+          <li class="conexoes__lista__item"><a href="tel:21982739265"><i class="fa fa-phone" aria-hidden="true"></i> Telefone</a></li>
+          <li class="conexoes__lista__item"><a href="https://twitter.com/leanfj" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i> Twitter</a></li>
+          <li class="conexoes__lista__item"><a href="mailto:leanfj@hotmail.com"><i class="fa fa-envelope-o" aria-hidden="true"></i> Email</a></li>
+          <li class="conexoes__lista__item"><a href="https://www.linkedin.com/in/leandro-ferreira-de-jesus-275174b7/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i> Linkedin</a></li>
         </ul>
-      </nav>
-      <div class="nome">
-        <h1 class="nome__titulo">Leandro <span class="nome__titulo--light">Ferreira</span></h1>
-        <h2 class="nome__cargo"><span class="nome__cargo--light">Desenvolvedor </span>Front-End</h2>
-        <p class="nome__texto">Olá, meu nome é Leandro e eu sou estudante do Curso de Tecnologia em Análise e Desenvolvimento de Sitemas na Universidade UNIGRANRIO. Estou me especializando no desenvolvimento Front-End.</p>
       </div>
-    </header>
-    <main>
-      <section id="habilidades" class="habilidades">
-            <i class="fa fa-code"></i>
-            <h2 class="habilidades__titulo"><span class="habilidades__titulo--light">Front-</span>End</h2>
-            <p class="habilidades__texto"> No momento estou desenvolvendo alguns projetos utilizando as tecnologias ligadas ao desenvolvimento Front-End, HTML, CSS, JS</p>
-      </section>
-      <section id="portfolio">
-            <div class="portfolio">
-              <h2 class="portfolio__titulo">Portifólio</h2>
-              <p class="portfolio__texto">Veja os meus últimos trabalhos</p>
-              <p class="portfolio__texto">Minhas páginas com portfólios</p>
-              <ul class="portfolio__lista">
-                <li class="portfolio__lista__item"><a href="https://github.com/leanfj" target="_blank"><i class="fa fa-github" aria-hidden="true"></i> GitHub</a></li>
-                <li class="portfolio__lista__item"><a href="http://codepen.io/leanfj/" target="_blank"><i class="fa fa-codepen" aria-hidden="true"></i> CodePen</a></li>
-                <li class="portfolio__lista__item"><a href="https://www.freecodecamp.com/leanfj" target="_blank"><i class="fa fa-free-code-camp" aria-hidden="true"></i> FreeCodeCamp</a></li>
-              </ul>
-            </div>
-            <div class="ultimos-trabalhos">
-              <p class="ultimos-trabalhos__texto">Últimos trabalhos</p>
-              <ul class="ultimos-trabalhos__lista">
-                <li class="ultimos-trabalhos__lista__item"><a href="https://leanfj.github.io/Coursera-HTML-CSS-and-Javascript-for-Web-Developers/site/" target="_blank">
-            			<img src="http://i.imgur.com/7M2AN90.jpg" width="300" height="200">
-          			</a></li>
-                <li class="ultimos-trabalhos__lista__item"><a href="https://leanfj.github.io/dayartedesign-wp/" target="_blank">
-            			<img src="http://i.imgur.com/baMpXCu.jpg" width="300" height="200">
-          			</a></li>
-                <li class="ultimos-trabalhos__lista__item"><a href="https://leanfj.github.io/CAELUM-Treinamento-Desenvolvimento-Web-com-HTML-CSS-e-JavaScript/" target="_blank">
-            			<img src="http://i.imgur.com/DNjTi8C.jpg" width="300" height="200">
-          			</a></li>
-                <li class="ultimos-trabalhos__lista__item"><a href="http://codepen.io/leanfj/full/BWMqZb/" target="_blank">
-            			<img src="http://i.imgur.com/1EZNvXD.jpg" width="300" height="200">
-                </a></li>
-              </ul>
-            </div>
-      </section>
-      <section id="contato" class="contato">
-          <div class="conexoes">
-            <h2 class="conexoes__titulo">Fique <span class="conexoes__titulo--light">Conectado</span></h2>
-            <ul class="conexoes__lista">
-              <li class="conexoes__lista__item"><a href="tel:21982739265"><i class="fa fa-phone" aria-hidden="true"></i> Telefone</a></li>
-              <li class="conexoes__lista__item"><a href="https://twitter.com/leanfj" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i> Twitter</a></li>
-              <li class="conexoes__lista__item"><a href="mailto:leanfj@hotmail.com"><i class="fa fa-envelope-o" aria-hidden="true"></i> Email</a></li>
-              <li class="conexoes__lista__item"><a href="https://www.linkedin.com/in/leandro-ferreira-de-jesus-275174b7/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i> Linkedin</a></li>
-            </ul>
-          </div>
-          <div class="form-contato">
-            <h3 class="form-contato__titulo">Quer <span class="form-contato__titulo--light">mais detalhes</span></h3>
-            <h3 class="form-contato__titulo"><span class="form-contato__titulo--light">Entre</span> em contato</h3>
-            <form action="https://formspree.io/leanfj@hotmail.com" method="POST" class="formulario">
-              <input type="text" name="name" value="" placeholder="Nome" class="formulario__nome">
-              <input type="email" name="_replyto" value="" placeholder="Email" class="formulario__email">
-              <input type="hidden" name="_subject" value="Novo contato">
-              <input type="hidden" name="_cc" value="leanfjdev@gmail.com">
-              <input type="text" name="_gotcha" style="display:none">
-              <textarea placeholder="Digite sua mensagem" name="body" class="formulario__mensagem"></textarea>
-              <button type="submit" value="Send" class="formulario__button">Enviar</button>
-            </form>
-          </div>
-      </section>
-    </main>
-    <footer class="rodape">
-        <div class="rodape__texto">
-          Code by <a href="https://github.com/leanfj" target="_blank">Leandro Ferreira</a>
-        </div>
-    </footer>
+      <div class="form-contato">
+        <h3 class="form-contato__titulo">Quer <span class="form-contato__titulo--light">mais detalhes</span></h3>
+        <h3 class="form-contato__titulo"><span class="form-contato__titulo--light">Entre</span> em contato</h3>
+        <form action="https://formspree.io/leanfj@hotmail.com" method="POST" class="formulario">
+          <input type="text" name="name" value="" placeholder="Nome" class="formulario__nome">
+          <input type="email" name="_replyto" value="" placeholder="Email" class="formulario__email">
+          <input type="hidden" name="_subject" value="Novo contato">
+          <input type="hidden" name="_cc" value="leanfjdev@gmail.com">
+          <input type="text" name="_gotcha" style="display:none">
+          <textarea placeholder="Digite sua mensagem" name="body" class="formulario__mensagem"></textarea>
+          <button type="submit" value="Send" class="formulario__button">Enviar</button>
+        </form>
+      </div>
+    </div>
+  </section>
+</main>
+<footer>
+  <div class="rodape">
+    Code by <a href="https://github.com/leanfj" target="_blank">Leandro Ferreira</a>
+  </div>
+</footer>
   <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
   <script src="js/main.js"></script>
   <script>
