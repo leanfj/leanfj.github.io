@@ -1,2 +1,8 @@
 body {
   font-family: 'Roboto', sans-serif; }
+
+header {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex; }
