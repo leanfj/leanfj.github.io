@@ -69,8 +69,12 @@ gulp.task('comprimir', function() {
 
 
 //Concatenar Javascript
+var jquery = './node_modules/jquery/dist/jquery.js';
+var bootstrap = './node_modules/bootstrap-sass/assets/javascripts/bootstrap.js';
+var mainJS = './js/main.js'
+
 gulp.task('concatjs', function() {
-  return gulp.src(['./node_modules/jquery/dist/jquery.js', './node_modules/bootstrap-sass/assets/javascripts/bootstrap.js', './js/main.js'])
+  return gulp.src([jquery, bootstrap, mainJS])
     .pipe(concat('scripts.js'))
     .pipe(gulp.dest('./js/'))
     .pipe(rename('scripts.min.js'))

@@ -5,3 +5,8 @@ $('[href*="#"]').click(function() {
 		scrollTop: target.offset().top
 	}, 1000);
 });
+
+
+$('#btn_esconde').click(function () {
+	$('#habilidades').toggle();
+});
