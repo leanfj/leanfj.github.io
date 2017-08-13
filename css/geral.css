@@ -1,8 +1,52 @@
 body {
-  font-family: 'Roboto', sans-serif; }
+  font-family: 'Roboto', sans-serif;
+  background-color: #ededed; }
 
 header {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex; }
+  height: 100vh;
+  background-color: #1b1e25; }
+  header .nome {
+    text-align: center; }
+
+@media (min-width: 768px) {
+  .ativo {
+    background-color: #1b1e25;
+    -webkit-transform: scale(1.2, 1.1);
+    -ms-transform: scale(1.2, 1.1);
+    -o-transform: scale(1.2, 1.1);
+    transform: scale(1.2, 1.1);
+    color: #fff !important;
+    border-radius: 5px;
+    -webkit-transition: all .2s;
+    -o-transition: all .2s;
+    transition: all .2s; }
+  .navegacao {
+    position: fixed;
+    right: 0;
+    top: 20vh;
+    background-color: transparent;
+    border: none; }
+    .navegacao .navbar-collapse {
+      padding-right: 0; }
+    .navegacao__lista {
+      list-style: none;
+      text-align: center;
+      padding: 0; }
+      .navegacao__lista li {
+        -webkit-transition: all .2s;
+        -o-transition: all .2s;
+        transition: all .2s;
+        background-color: #fff;
+        margin-bottom: 2px;
+        border-radius: 5px; }
+        .navegacao__lista li:hover {
+          background-color: #1b1e25; }
+          .navegacao__lista li:hover .navegacao__lista__item {
+            color: #fff; }
+        .navegacao__lista li .navegacao__lista__item {
+          color: #1b1e25;
+          display: block;
+          padding: 10px 30px;
+          text-decoration: none;
+          font-size: 12px;
+          font-size: 1.2rem; } }

@@ -12638,7 +12638,9 @@ $('[href*="#"]').click(function() {
 	}, 1000);
 });
 
-
-$('#btn_esconde').click(function () {
-	$('#habilidades').toggle();
+$('[href*="#"]').click(function () {
+	if ($('[href*="#"]').hasClass('ativo')) {
+		$('[href*="#"]').removeClass('ativo');
+	}
+	$(this).addClass('ativo');
 });
