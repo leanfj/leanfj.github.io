@@ -1,6 +1,32 @@
-header
+#header
+  height: 100%
   height: 100vh
   background-color: $dark
+  display: flex
+  justify-content: center
+  flex-direction: column
   .nome
-    text-align: center
+    +make-md-column(6)
+    +make-md-column-offset(3)
     &__titulo
+      color: #fff
+      +responsive-font(5vw, 40px, 70px)
+      &--light
+        font-weight: $light
+    &__cargo
+      color: #fff
+      +responsive-font(5vw, 20px, 30px)
+      &--light
+        font-weight: $light
+    a
+      display: inline-block
+      text-decoration: none
+      color: #fff
+      border: 1px solid #fff
+      border-radius: 5px
+      padding: 10px 20px
+      margin-top: 20px
+      transition: all .2s
+      &:hover
+        background-color: #fff
+        color: $dark

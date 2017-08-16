@@ -1,3 +1,37 @@
+.navegacao
+  background-color: $dark
+  border: none
+  margin-bottom: 0
+  .navbar-toggle
+    &:hover, &:focus
+      background-color: transparent
+    .icon-bar
+      background-color: #fff
+  .navbar-collapse
+    padding: 0 20px
+    border: none
+    margin-top: 10px
+  &__lista
+    list-style: none
+    text-align: center
+    padding: 0
+    li
+      transition: all .2s
+      background-color: #fff
+      margin-bottom: 2px
+      border-radius: 5px
+      border: 1px solid #fff
+      &:hover
+        background-color: $dark
+        .navegacao__lista__item
+          color: #fff
+      .navegacao__lista__item
+        color: $dark
+        display: block
+        padding: 10px 30px
+        text-decoration: none
+        +responsive-font(1vw, 15px, 20px)
+
 +breakpoint($tablet)
   .ativo
     background-color: $dark
@@ -5,7 +39,6 @@
     color: #fff !important
     border-radius: 5px
     transition: all .2s
-
   .navegacao
     position: fixed
     right: 0
@@ -17,7 +50,6 @@
     &__lista
       list-style: none
       text-align: center
-
       padding: 0
       li
         transition: all .2s
@@ -33,4 +65,5 @@
           display: block
           padding: 10px 30px
           text-decoration: none
-          +font-size(12px)
+          +responsive-font(2vw, 10px, 15px)
+          border: 1px solid #fff
