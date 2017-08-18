@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="800" height="832" viewBox="0 0 800 832" id="svg2" style=""><path id="svgEditorBackground" width="800" height="832" style="fill: none; stroke: none;" d="M0 0 L800 0 L800 832 L0 832 Z" class="FcEoyrWN_0"></path>
+	<title>Kirikane Pattern 12</title>
+	<g id="Everything" style="fill:none;stroke:rgba(255, 255, 255, 0.10);;stroke-width:2;stroke-linecap:round;stroke-linejoin:round">
+		<path d="M 0,0 80,46.188022 80,138.56407 0,92.376043" id="E1" class="FcEoyrWN_1"></path>
+		<path d="M 800,0 720,46.188022 720,138.56407 800,92.376043" id="E2" class="FcEoyrWN_2"></path>
+		<path d="M 0,184.75209 80,138.56407 80,230.94011 0,277.12813" id="E3" class="FcEoyrWN_3"></path>
+		<path d="M 800,184.75209 720,138.56407 720,230.94011 800,277.12813" id="E4" class="FcEoyrWN_4"></path>
+		<g id="V1">
+			<path d="M 160,0 240,46.188022 240,138.56407 160,92.376043 160,0 z" class="FcEoyrWN_5"></path>
+			<path d="M 160,0 160,92.376043 80,138.56406 80,46.188022 160,0 z" class="FcEoyrWN_6"></path>
+		</g>
+		<g id="V2">
+			<path d="M 80,138.56406 160,184.75209 160,277.12813 80,230.94011 z" class="FcEoyrWN_7"></path>
+			<path d="M 240,138.56406 160,184.75209 160,277.12813 240,230.94011 z" class="FcEoyrWN_8"></path>
+		</g>
+
+
+
+
+
+
+
+
+		<use xlink:href="#V1" transform="translate(160,0)"></use>
+		<use xlink:href="#V1" transform="translate(320,0)"></use>
+		<use xlink:href="#V1" transform="translate(480,0)"></use>
+		<use xlink:href="#V1" transform="translate(0,277.12813)"></use>
+		<use xlink:href="#V1" transform="translate(160,277.12813)"></use>
+		<use xlink:href="#V1" transform="translate(320,277.12813)"></use>
+		<use xlink:href="#V1" transform="translate(480,277.12813)"></use>
+		<use xlink:href="#V1" transform="translate(0,554.25626)"></use>
+		<use xlink:href="#V1" transform="translate(160,554.25626)"></use>
+		<use xlink:href="#V1" transform="translate(320,554.25626)"></use>
+		<use xlink:href="#V1" transform="translate(480,554.25626)"></use>
+		<use xlink:href="#V2" transform="translate(160,0)"></use>
+		<use xlink:href="#V2" transform="translate(320,0)"></use>
+		<use xlink:href="#V2" transform="translate(480,0)"></use>
+		<use xlink:href="#V2" transform="translate(160,277.12813)"></use>
+		<use xlink:href="#V2" transform="translate(320,277.12813)"></use>
+		<use xlink:href="#V2" transform="translate(480,277.12813)"></use>
+		<use xlink:href="#V2" transform="translate(0,554.25626)"></use>
+		<use xlink:href="#V2" transform="translate(160,554.25626)"></use>
+		<use xlink:href="#V2" transform="translate(320,554.25626)"></use>
+		<use xlink:href="#V2" transform="translate(480,554.25626)"></use>
+		<use xlink:href="#V2" transform="translate(0,277.12813)"></use>
+		<use xlink:href="#E1" transform="translate(0,277.12813)"></use>
+		<use xlink:href="#E1" transform="translate(0,554.25626)"></use>
+		<use xlink:href="#E2" transform="translate(0,277.12813)"></use>
+		<use xlink:href="#E2" transform="translate(0,554.25626)"></use>
+		<use xlink:href="#E3" transform="translate(0,277.12813)"></use>
+		<use xlink:href="#E3" transform="translate(0,554.25626)"></use>
+		<use xlink:href="#E4" transform="translate(0,277.12813)"></use>
+		<use xlink:href="#E4" transform="translate(0,554.25626)"></use>
+	</g>
+<style>.FcEoyrWN_0{stroke-dasharray:3264 3266;stroke-dashoffset:3265;animation:FcEoyrWN_draw_0 7200ms linear 0ms infinite,FcEoyrWN_fade 7200ms linear 0ms infinite;}.FcEoyrWN_1{stroke-dasharray:278 280;stroke-dashoffset:279;animation:FcEoyrWN_draw_1 7200ms linear 0ms infinite,FcEoyrWN_fade 7200ms linear 0ms infinite;}.FcEoyrWN_2{stroke-dasharray:278 280;stroke-dashoffset:279;animation:FcEoyrWN_draw_2 7200ms linear 0ms infinite,FcEoyrWN_fade 7200ms linear 0ms infinite;}.FcEoyrWN_3{stroke-dasharray:278 280;stroke-dashoffset:279;animation:FcEoyrWN_draw_3 7200ms linear 0ms infinite,FcEoyrWN_fade 7200ms linear 0ms infinite;}.FcEoyrWN_4{stroke-dasharray:278 280;stroke-dashoffset:279;animation:FcEoyrWN_draw_4 7200ms linear 0ms infinite,FcEoyrWN_fade 7200ms linear 0ms infinite;}.FcEoyrWN_5{stroke-dasharray:370 372;stroke-dashoffset:371;animation:FcEoyrWN_draw_5 7200ms linear 0ms infinite,FcEoyrWN_fade 7200ms linear 0ms infinite;}.FcEoyrWN_6{stroke-dasharray:370 372;stroke-dashoffset:371;animation:FcEoyrWN_draw_6 7200ms linear 0ms infinite,FcEoyrWN_fade 7200ms linear 0ms infinite;}.FcEoyrWN_7{stroke-dasharray:370 372;stroke-dashoffset:371;animation:FcEoyrWN_draw_7 7200ms linear 0ms infinite,FcEoyrWN_fade 7200ms linear 0ms infinite;}.FcEoyrWN_8{stroke-dasharray:370 372;stroke-dashoffset:371;animation:FcEoyrWN_draw_8 7200ms linear 0ms infinite,FcEoyrWN_fade 7200ms linear 0ms infinite;}@keyframes FcEoyrWN_draw{100%{stroke-dashoffset:0;}}@keyframes FcEoyrWN_fade{0%{stroke-opacity:1;}94.44444444444444%{stroke-opacity:1;}100%{stroke-opacity:0;}}@keyframes FcEoyrWN_draw_0{11.11111111111111%{stroke-dashoffset: 3265}38.88888888888889%{ stroke-dashoffset: 0;}100%{ stroke-dashoffset: 0;}}@keyframes FcEoyrWN_draw_1{12.847222222222221%{stroke-dashoffset: 279}40.625%{ stroke-dashoffset: 0;}100%{ stroke-dashoffset: 0;}}@keyframes FcEoyrWN_draw_2{14.583333333333334%{stroke-dashoffset: 279}42.36111111111111%{ stroke-dashoffset: 0;}100%{ stroke-dashoffset: 0;}}@keyframes FcEoyrWN_draw_3{16.319444444444446%{stroke-dashoffset: 279}44.09722222222222%{ stroke-dashoffset: 0;}100%{ stroke-dashoffset: 0;}}@keyframes FcEoyrWN_draw_4{18.055555555555554%{stroke-dashoffset: 279}45.83333333333333%{ stroke-dashoffset: 0;}100%{ stroke-dashoffset: 0;}}@keyframes FcEoyrWN_draw_5{19.791666666666664%{stroke-dashoffset: 371}47.56944444444444%{ stroke-dashoffset: 0;}100%{ stroke-dashoffset: 0;}}@keyframes FcEoyrWN_draw_6{21.52777777777778%{stroke-dashoffset: 371}49.30555555555556%{ stroke-dashoffset: 0;}100%{ stroke-dashoffset: 0;}}@keyframes FcEoyrWN_draw_7{23.26388888888889%{stroke-dashoffset: 371}51.041666666666664%{ stroke-dashoffset: 0;}100%{ stroke-dashoffset: 0;}}@keyframes FcEoyrWN_draw_8{25%{stroke-dashoffset: 371}52.77777777777778%{ stroke-dashoffset: 0;}100%{ stroke-dashoffset: 0;}}</style></svg>

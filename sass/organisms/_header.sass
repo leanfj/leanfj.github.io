@@ -1,7 +1,12 @@
 #header
   height: 100%
   height: 100vh
+  min-height: 300px
   background-color: $dark
+  background-image: url(../../img/svg/bg_animado.svg)
+  background-repeat: no-repeat
+  background-position: center
+  background-size: cover
   display: flex
   justify-content: center
   flex-direction: column
@@ -15,7 +20,7 @@
         font-weight: $light
     &__cargo
       color: #fff
-      +responsive-font(5vw, 20px, 30px)
+      +responsive-font(4vw, 18px, 25px)
       &--light
         font-weight: $light
     a
