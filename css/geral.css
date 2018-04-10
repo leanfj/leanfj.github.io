@@ -1,6 +1,13 @@
 body {
   font-family: 'Roboto', sans-serif;
-  background-color: #ededed; }
+  background-color: #ededed;
+  font-size: 2vw; }
+  @media (max-width: 750px) {
+    body {
+      font-size: 15px; } }
+  @media (min-width: 1000px) {
+    body {
+      font-size: 20px; } }
 
 #header {
   height: 100%;
@@ -160,3 +167,134 @@ body {
           font-size: 14px;
           font-size: 1.4rem;
           border: 1px solid #fff; } }
+
+#sobre {
+  margin-top: 20px;
+  margin-bottom: 20px; }
+
+.foto {
+  background-image: url("../img/foto-leandro.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+  display: block;
+  width: 200px;
+  height: 200px;
+  border-radius: 55%;
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto; }
+  @media (min-width: 992px) {
+    .foto {
+      float: left;
+      width: 16.66667%; } }
+
+.sobre {
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px; }
+  @media (min-width: 992px) {
+    .sobre {
+      float: left;
+      width: 75%; } }
+  @media (min-width: 992px) {
+    .sobre {
+      margin-left: 8.33333%; } }
+  .sobre a {
+    color: #1b1e25;
+    border: 1px solid #1b1e25;
+    border-radius: 5px;
+    margin-top: 20px;
+    padding: 10px;
+    display: inline-block;
+    vertical-align: baseline;
+    text-align: center;
+    text-decoration: none;
+    -webkit-transition: all .2s;
+    -o-transition: all .2s;
+    transition: all .2s; }
+    .sobre a:hover {
+      background-color: #1b1e25;
+      color: #fff; }
+
+#habilidades {
+  background-color: #1b1e25;
+  color: #fff; }
+  #habilidades .row {
+    text-align: center;
+    margin: 20px 0; }
+    #habilidades .row .habilidades {
+      position: relative;
+      min-height: 1px;
+      padding-left: 15px;
+      padding-right: 15px; }
+      @media (min-width: 992px) {
+        #habilidades .row .habilidades {
+          float: left;
+          width: 100%; } }
+      #habilidades .row .habilidades h3 {
+        font-size: 5vw; }
+        @media (max-width: 600px) {
+          #habilidades .row .habilidades h3 {
+            font-size: 30px; } }
+        @media (min-width: 800px) {
+          #habilidades .row .habilidades h3 {
+            font-size: 40px; } }
+      #habilidades .row .habilidades__dev {
+        position: relative;
+        min-height: 1px;
+        padding-left: 15px;
+        padding-right: 15px;
+        position: relative;
+        float: left;
+        width: 100%;
+        min-height: 1px;
+        padding-left: 15px;
+        padding-right: 15px; }
+        @media (min-width: 992px) {
+          #habilidades .row .habilidades__dev {
+            float: left;
+            width: 33.33333%; } }
+      #habilidades .row .habilidades__proj {
+        position: relative;
+        min-height: 1px;
+        padding-left: 15px;
+        padding-right: 15px;
+        position: relative;
+        float: left;
+        width: 100%;
+        min-height: 1px;
+        padding-left: 15px;
+        padding-right: 15px; }
+        @media (min-width: 992px) {
+          #habilidades .row .habilidades__proj {
+            float: left;
+            width: 33.33333%; } }
+      #habilidades .row .habilidades__pessoal {
+        position: relative;
+        min-height: 1px;
+        padding-left: 15px;
+        padding-right: 15px;
+        position: relative;
+        float: left;
+        width: 100%;
+        min-height: 1px;
+        padding-left: 15px;
+        padding-right: 15px; }
+        @media (min-width: 992px) {
+          #habilidades .row .habilidades__pessoal {
+            float: left;
+            width: 33.33333%; } }
+      #habilidades .row .habilidades__titulo {
+        margin: 25px 0;
+        border-bottom: 1px solid;
+        padding-bottom: 5px; }
+      #habilidades .row .habilidades__lista {
+        list-style: none;
+        padding: 0; }
+        #habilidades .row .habilidades__lista__item {
+          margin: 10px 0; }
