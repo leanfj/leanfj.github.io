@@ -84,7 +84,8 @@ body {
 .navegacao {
   background-color: #1b1e25;
   border: none;
-  margin-bottom: 0; }
+  margin-bottom: 0;
+  z-index: 1; }
   .navegacao .navbar-toggle {
     border: none; }
     .navegacao .navbar-toggle:hover, .navegacao .navbar-toggle:focus {
@@ -298,3 +299,7 @@ body {
         padding: 0; }
         #habilidades .row .habilidades__lista__item {
           margin: 10px 0; }
+
+#wakatime {
+  max-width: 600px;
+  margin: 0 auto; }
