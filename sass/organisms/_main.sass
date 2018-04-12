@@ -58,5 +58,68 @@
                 &__item
                     margin: 10px 0
 #wakatime
-    max-width: 600px
+    max-width: 500px
     margin: 0 auto
+.portfolio
+    +make-md-column(12)
+    text-align: center
+    border: 1px solid $dark
+    border-radius: 20px
+    margin: 20px 0
+    &__lista
+        list-style: none
+        padding: 0
+        &__item
+            a
+                color: $dark
+            img
+                width: 300px
+            span
+                display: block
+                margin-top: -25px
+#contato
+    background-color: $dark
+    color: #fff
+    margin-top: 20px
+.contato
+    +make-md-column(12)
+    display: flex
+    flex-direction: column
+    align-items: center
+    margin: 20px auto
+    &__titulo
+        margin: 0
+        &--light
+            font-weight: 300
+    &__lista
+        padding: 0
+        margin-top: 20px
+        display: flex
+        flex-wrap: wrap
+        justify-content: space-around
+        &__item
+            list-style: none
+            margin: 20px 20px
+            a
+                color: #ffffff
+                i
+                    +responsive-font (5vw, 30px, 40px)
+                    margin-right: 5px
+                    
+                
+.rodape
+    text-align: center
+    height: 50px
+    display: flex
+    justify-content: center
+    align-items: center
+    a
+        margin-left: 5px
+        color: $dark
+        font-weight: 300
+        text-decoration: none
+        transition: all .2s
+        &:hover
+            background-color: $dark
+            color: #fff
+            padding: 0px 5px
