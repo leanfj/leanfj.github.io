@@ -1,2 +1,107 @@
-# leogmae86.github.io
-## Leandro Ferreira - Desenvolvedor Front-End
+# Leandro Ferreira de Jesus
+##### Desenvolvedor Web - Front-end e Back-end.
+
+:house:    Rio de Janeiro / RJ <br>
+:iphone:   +55 (21) 98273 - 9265 <br>
+:envelope:  leanfj@hotmail.com
+
+Olá, meu nome é Leandro e eu sou estudante do Curso de Tecnologia em Análise e Desenvolvimento de Sistemas na Universidade UNIGRANRIO. Estou me especializando no Desenvolvimento Web focado em Front-End utilizando HTML, CSS e JavaScript.
+
+Tenho como ferramentas pré-processadores (SASS),frameworks CSS (BOOTSTRAP ) automatizadores de tarefas(GULP/WEBPACK) , para controle de versão (GIT) e frameworks/bibliotecas Javascript (REACT/ANGULARJS).
+
+Abrangendo boas práticas de codificação semântica e acessibilidade.
+
+## Formação
+UNIGRANRIO - Tecnólogo em Analise e Desenvolvimento de Sistemas
+2 º Semestre - Finalização em 2019
+
+Escola Técnica Estadual Visconde de Mauá / 2º Grau
+2000 - 2005, RIO DE JANEIRO
+
+
+## Experência Profissional
+* (2017 -  Atual)
+**Freelancer** -
+Desenvolvimento Web
+  * Planejar e executar projetos como websites, aplicativos web.
+
+* (2006 -  2016)
+**Nec Latin America** -
+Auxiliar Técnico / Administrativo.
+  * Execução de projetos de infra estrutura de telecomunicação
+  * Gerenciamento de ativos e administração de documentos
+
+## Conhecimentos
+
+#### Gerais
+* Inglês suficiente para ler, entender e falar.
+
+#### Sistemas Operacionais
+* Linux
+* Windows
+
+#### Front-end
+* HTML.
+* CSS (Design Responsivo).
+  * SASS
+  * Arquitetura BEM
+
+#### UI Kits
+* Materialize.
+* Bootstrap.
+
+#### Frameworks/Libs Front-end
+* ReactJS
+* AngularJS
+* Jquery
+
+#### Linguagens de Programação
+* JavaScript.
+* PHP.
+
+#### Frameworks Back-end
+* ExpressJs / NodeJs
+
+#### Banco de Dados
+* MongoDb
+* Google Firebase
+* MySQL.
+
+#### Sistemas de controle de versão
+* Git.
+
+## Projetos
+* [Meu Site/Portifólio](https://leanfj.github.io/)
+* [Site Day Art Design](http://www.dayartdesign.com.br/)
+* [App Day Art Design Cadastro Clientes](https://cadclientes-dayartdesign.herokuapp.com/)
+* [Site Poraquê Instalações Elétricas](http://leanfj.github.io/Projetoporaque/index.html/)
+* [Site Jardim Escola Estrela do Saber](https://leanfj.github.io/estrela-saber-ws/)
+* [Teste QConcurso](https://leanfj.github.io/qconcurso)
+* [Teste Eletric Dreams](https://leanfjed.herokuapp.com/#)  
+* [Frontloop Challenges](https://leanfj.github.io/frontloop-challenges/)
+* [App Lista Mercado](https://leanfjlistamercado.herokuapp.com/)
+* [App Registro de Séries](https://leanfjprimeiroapp.herokuapp.com/)
+* [Projeto Final Curso HTML, CSS, and Javascript for Web Developers](https://leanfj.github.io/Coursera-HTML-CSS-and-Javascript-for-Web-Developers/site/)
+* [Projeto Final Apostila WD-43 Desenvolvimento Web com HTML, CSS e JavaScript](https://leanfj.github.io/CAELUM-Treinamento-Desenvolvimento-Web-com-HTML-CSS-e-JavaScript/)
+* [Projeto Final Turma PCA - ADS - UNIGRANRIO](https://leanfj.github.io/ads-projeto-pca/index.html)
+* [Projeto Consulta Cep/ Rastreio encomenda Correios](https://leanfj.github.io/cdd-js-jquery/ajax/consulta-cep/)
+* [Projeto Lista de Tarefas](https://leanfj.github.io/cdd-js-jquery/lista-tarefas/)
+
+
+## Cursos Completos
+* HTML, CSS, and Javascript for Web Developers (Coursera-Johns Hopkins University / [Repositório - Github](https://github.com/leanfj/Coursera-HTML-CSS-and-Javascript-for-Web-Developers))
+* Apostila WD-43 Desenvolvimento Web com HTML, CSS e JavaScript ( Caelum / [Repositório - Github](https://github.com/leanfj/CAELUM-Treinamento-Desenvolvimento-Web-com-HTML-CSS-e-JavaScript)) 
+* Livro Dominando JavaScript com jQuery ( Casa do Código / [Repositório - Github](https://github.com/leanfj/cdd-js-jquery)) 
+* Livro Lógica de Programação ( Casa do Código / [Repositório - Github](https://github.com/leanfj/casadocodigo-log-prog-js)) 
+* Curso de HTML5 ( Curso em Video / Cod. Certificado: 4110-992-1) 
+* Curso de Algoritimo ( Curso em Video / Cod. Certificado: 4110-973-1) 
+* Curso de PHP 7 ( NodeStudios-Youtube / [Repositório - Github](https://github.com/leanfj/php-nodestudios)) 
+
+## Redes Sociais
+*  [Facebook](https://www.facebook.com/leandro.f.dejesus)
+*  [Twitter](https://twitter.com/leanfj)
+*  [Linkedin](https://www.linkedin.com/in/leandro-ferreira-de-jesus-275174b7/)
+
+<br><br>
+
+Inspirado no [davidallysson](https://github.com/davidallysson/curriculo). Confere o dele lá também! :wink:
