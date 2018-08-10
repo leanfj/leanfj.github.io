@@ -1,6 +1,6 @@
 #sobre
-    margin-top: 20px
-    margin-bottom: 20px
+    margin-top: 60px
+    margin-bottom: 60px
 .foto
     background-image: url('../img/foto-leandro.jpg')
     background-position: center
@@ -50,16 +50,19 @@
                 +make-xs-column(12)
             &__titulo
                 margin: 12px 0
-                border-bottom: 1px solid
                 padding-bottom: 5px
+                position: relative
+                border-bottom: 2px solid                    
             &__lista
                 list-style: none
                 padding: 0
                 &__item
                     margin: 10px 0
 #wakatime
-    max-width: 500px
+    max-width: 400px
     margin: 0 auto
+#myChart
+    color: #ffffff
 .portfolio
     +make-md-column(12)
     text-align: center
@@ -104,24 +107,23 @@
             margin: 20px 20px
             a
                 color: #ffffff
+                text-decoration: none
+                position: relative
+                &:hover:before
+                    transform: scaleX(1)
+                &:before
+                    position: absolute
+                    bottom: -5px
+                    content: ""
+                    display: block
+                    width: 100%
+                    transform: scaleX(0)
+                    height: 2px
+                    background-color: #fff
+                    transition: all .3s
                 i
                     +responsive-font (5vw, 30px, 40px)
                     margin-right: 5px
                     
                 
-.rodape
-    text-align: center
-    height: 50px
-    display: flex
-    justify-content: center
-    align-items: center
-    a
-        margin-left: 5px
-        color: $dark
-        font-weight: 300
-        text-decoration: none
-        transition: all .2s
-        &:hover
-            background-color: $dark
-            color: #fff
-            padding: 0px 5px
+
