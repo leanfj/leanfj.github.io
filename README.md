@@ -7,19 +7,24 @@
 
 Olá, meu nome é Leandro e eu sou estudante do Curso de Tecnologia em Análise e Desenvolvimento de Sistemas na Universidade UNIGRANRIO. Estou me especializando no Desenvolvimento Web focado em Front-End utilizando HTML, CSS e JavaScript.
 
-Tenho como ferramentas pré-processadores (SASS),frameworks CSS (BOOTSTRAP ) automatizadores de tarefas(GULP/WEBPACK) , para controle de versão (GIT) e frameworks/bibliotecas Javascript (REACT/ANGULARJS).
+Tenho como ferramentas pré-processadores (SASS),frameworks CSS (BOOTSTRAP ) automatizadores de tarefas(GULP/WEBPACK), para controle de versão (GIT) e frameworks/bibliotecas Javascript (REACT/ANGULARJS), para desenvolvimento Back-End utilizo Javascript com NodeJs.
 
 Abrangendo boas práticas de codificação semântica e acessibilidade.
 
 ## Formação
 UNIGRANRIO - Tecnólogo em Analise e Desenvolvimento de Sistemas
-2 º Semestre - Finalização em 2019
+2º Semestre - Finalização em 2021
 
 Escola Técnica Estadual Visconde de Mauá / 2º Grau
 2000 - 2005, RIO DE JANEIRO
 
 
 ## Experência Profissional
+* (2019 - Atual)
+**4 MAP It Consulting**
+Analista de Contas Júnior
+  * Administração de ativos de cliente outsourcing(TV GLOBO)
+  
 * (2017 -  Atual)
 **Freelancer** -
 Desenvolvimento Web
@@ -34,21 +39,22 @@ Auxiliar Técnico / Administrativo.
 ## Conhecimentos
 
 #### Gerais
-* Inglês suficiente para ler, entender e falar.
+* Idiomas
+  * Inglês suficiente para ler, entender e falar
 
 #### Sistemas Operacionais
 * Linux
 * Windows
 
 #### Front-end
-* HTML.
-* CSS (Design Responsivo).
+* HTML
+* CSS (Design Responsivo)
   * SASS
   * Arquitetura BEM
 
-#### UI Kits
-* Materialize.
-* Bootstrap.
+#### CSS FrameWorks - UI Kits
+* Materialize
+* Bootstrap
 
 #### Frameworks/Libs Front-end
 * ReactJS
@@ -56,16 +62,23 @@ Auxiliar Técnico / Administrativo.
 * Jquery
 
 #### Linguagens de Programação
-* JavaScript.
-* PHP.
+* JavaScript
+* PHP
 
-#### Frameworks Back-end
+#### Back-End
 * ExpressJs / NodeJs
 
+#### FrameWorks Back-End
+* ExpressJS
+  
 #### Banco de Dados
 * MongoDb
 * Google Firebase
-* MySQL.
+* MySQL / PostgresSQL
+
+#### ORM's
+* Mongoose
+* Sequelize
 
 #### Sistemas de controle de versão
 * Git.
@@ -78,6 +91,7 @@ Auxiliar Técnico / Administrativo.
 * [Site Jardim Escola Estrela do Saber](https://leanfj.github.io/estrela-saber-ws/)
 * [Teste QConcurso](https://leanfj.github.io/qconcurso)
 * [Teste Eletric Dreams](https://leanfjed.herokuapp.com/#)  
+* [Teste Hotel Urbano](https://leanfj-weather.herokuapp.com/)  
 * [Frontloop Challenges](https://leanfj.github.io/frontloop-challenges/)
 * [App Lista Mercado](https://leanfjlistamercado.herokuapp.com/)
 * [App Registro de Séries](https://leanfjprimeiroapp.herokuapp.com/)
@@ -86,7 +100,6 @@ Auxiliar Técnico / Administrativo.
 * [Projeto Final Turma PCA - ADS - UNIGRANRIO](https://leanfj.github.io/ads-projeto-pca/index.html)
 * [Projeto Consulta Cep/ Rastreio encomenda Correios](https://leanfj.github.io/cdd-js-jquery/ajax/consulta-cep/)
 * [Projeto Lista de Tarefas](https://leanfj.github.io/cdd-js-jquery/lista-tarefas/)
-
 
 ## Cursos Completos
 * HTML, CSS, and Javascript for Web Developers (Coursera-Johns Hopkins University / [Repositório - Github](https://github.com/leanfj/Coursera-HTML-CSS-and-Javascript-for-Web-Developers))
@@ -97,6 +110,9 @@ Auxiliar Técnico / Administrativo.
 * Curso de Algoritimo ( Curso em Video / Cod. Certificado: 4110-973-1) 
 * Curso de PHP 7 ( NodeStudios-Youtube / [Repositório - Github](https://github.com/leanfj/php-nodestudios)) 
 
+## Cursos em andamento
+* Node.js para Iniciantes ( NODEBR / [Repositório - Github](https://github.com/leanfj/curso-nodejs-nodebr)) 
+  
 ## Redes Sociais
 *  [Facebook](https://www.facebook.com/leandro.f.dejesus)
 *  [Twitter](https://twitter.com/leanfj)
