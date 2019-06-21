@@ -7,17 +7,16 @@
 
 Olá, meu nome é Leandro e eu sou estudante do Curso de Tecnologia em Análise e Desenvolvimento de Sistemas na Universidade UNIGRANRIO. Estou me especializando no Desenvolvimento Web focado em Front-End utilizando HTML, CSS e JavaScript.
 
-Tenho como ferramentas pré-processadores (SASS),frameworks CSS (BOOTSTRAP ) automatizadores de tarefas(GULP/WEBPACK), para controle de versão (GIT) e frameworks/bibliotecas Javascript (REACT/ANGULARJS), para desenvolvimento Back-End utilizo Javascript com NodeJs.
+Tenho como ferramentas pré-processadores (SASS),frameworks CSS (BOOTSTRAP) automatizadores de tarefas(GULP/WEBPACK), para controle de versão (GIT) e frameworks/bibliotecas Javascript (REACT/ANGULARJS), para desenvolvimento Back-End utilizo Javascript com NodeJs.
 
 Abrangendo boas práticas de codificação semântica e acessibilidade.
 
 ## Formação
 UNIGRANRIO - Tecnólogo em Analise e Desenvolvimento de Sistemas
-2º Semestre - Finalização em 2021
+2º Semestre - Trancado
 
 Escola Técnica Estadual Visconde de Mauá / 2º Grau
 2000 - 2005, RIO DE JANEIRO
-
 
 ## Experência Profissional
 * (2019 - Atual)
@@ -66,7 +65,7 @@ Auxiliar Técnico / Administrativo.
 * PHP
 
 #### Back-End
-* ExpressJs / NodeJs
+* NodeJs
 
 #### FrameWorks Back-End
 * ExpressJS
@@ -81,7 +80,7 @@ Auxiliar Técnico / Administrativo.
 * Sequelize
 
 #### Sistemas de controle de versão
-* Git.
+* Git
 
 ## Projetos
 * [Meu Site/Portifólio](https://leanfj.github.io/)
@@ -100,6 +99,7 @@ Auxiliar Técnico / Administrativo.
 * [Projeto Final Turma PCA - ADS - UNIGRANRIO](https://leanfj.github.io/ads-projeto-pca/index.html)
 * [Projeto Consulta Cep/ Rastreio encomenda Correios](https://leanfj.github.io/cdd-js-jquery/ajax/consulta-cep/)
 * [Projeto Lista de Tarefas](https://leanfj.github.io/cdd-js-jquery/lista-tarefas/)
+* [Projeto API Registro de Senhas - FAC](https://cursonodebr-leanfj.herokuapp.com/documentation)
 
 ## Cursos Completos
 * HTML, CSS, and Javascript for Web Developers (Coursera-Johns Hopkins University / [Repositório - Github](https://github.com/leanfj/Coursera-HTML-CSS-and-Javascript-for-Web-Developers))
@@ -109,10 +109,11 @@ Auxiliar Técnico / Administrativo.
 * Curso de HTML5 ( Curso em Video / Cod. Certificado: 4110-992-1) 
 * Curso de Algoritimo ( Curso em Video / Cod. Certificado: 4110-973-1) 
 * Curso de PHP 7 ( NodeStudios-Youtube / [Repositório - Github](https://github.com/leanfj/php-nodestudios)) 
+* Node.js para Iniciantes ( NODEBR / [Repositório - Github](https://github.com/leanfj/curso-nodejs-nodebr) / Cod. Certificado: cert_btbdtc8b) 
 
 ## Cursos em andamento
-* Node.js para Iniciantes ( NODEBR / [Repositório - Github](https://github.com/leanfj/curso-nodejs-nodebr)) 
-  
+* Become a WordPress Developer: Unlocking Power With Code ( Brad Schiff - Udemy / [Repositório - Github](https://github.com/leanfj/university-theme) - [Demo](https://lfwebinnovations.com.br/temas/university-theme/))
+   
 ## Redes Sociais
 *  [Facebook](https://www.facebook.com/leandro.f.dejesus)
 *  [Twitter](https://twitter.com/leanfj)
