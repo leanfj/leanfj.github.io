@@ -2,7 +2,7 @@
 ##### Desenvolvedor Web - Front-end e Back-end.
 
 :house:    Rio de Janeiro / RJ <br>
-:iphone:   +55 (21) 98273 - 9265 <br>
+:iphone:   +55 (21) 96883 - 6199 <br>
 :envelope:  leanfj@hotmail.com
 
 Olá, meu nome é Leandro e eu sou estudante do Curso de Tecnologia em Análise e Desenvolvimento de Sistemas na Universidade UNIGRANRIO. Estou me especializando no Desenvolvimento Web focado em Front-End utilizando HTML, CSS e JavaScript.
@@ -22,7 +22,7 @@ Escola Técnica Estadual Visconde de Mauá / 2º Grau
 * (2019 - Atual)
 **4 MAP It Consulting**
 Analista de Contas Júnior
-  * Administração de ativos de cliente outsourcing(TV GLOBO)
+  * Administração de ativos de telefonia móvel de cliente outsourcing(TV GLOBO)
   
 * (2017 -  Atual)
 **Freelancer** -
@@ -59,6 +59,7 @@ Auxiliar Técnico / Administrativo.
 * ReactJS
 * AngularJS
 * Jquery
+* Wordpress
 
 #### Linguagens de Programação
 * JavaScript
@@ -73,7 +74,8 @@ Auxiliar Técnico / Administrativo.
 #### Banco de Dados
 * MongoDb
 * Google Firebase
-* MySQL / PostgresSQL
+* MySQL
+* PostgresSQL
 
 #### ORM's
 * Mongoose
@@ -110,6 +112,7 @@ Auxiliar Técnico / Administrativo.
 * Curso de Algoritimo ( Curso em Video / Cod. Certificado: 4110-973-1) 
 * Curso de PHP 7 ( NodeStudios-Youtube / [Repositório - Github](https://github.com/leanfj/php-nodestudios)) 
 * Node.js para Iniciantes ( NODEBR / [Repositório - Github](https://github.com/leanfj/curso-nodejs-nodebr) / Cod. Certificado: cert_btbdtc8b) 
+* Estudo Dirigido Cangaceiro Javascript ( Casa do Código / [Repositório - Github](https://github.com/leanfj/cdc-cang-javascript)) 
 
 ## Cursos em andamento
 * Become a WordPress Developer: Unlocking Power With Code ( Brad Schiff - Udemy / [Repositório - Github](https://github.com/leanfj/university-theme) - [Demo](https://lfwebinnovations.com.br/temas/university-theme/))
