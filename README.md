@@ -5,15 +5,15 @@
 :iphone:   +55 (21) 96883 - 6199 <br>
 :envelope:  leanfj@hotmail.com
 
-Olá, meu nome é Leandro e eu sou estudante do Curso de Tecnologia em Análise e Desenvolvimento de Sistemas na Universidade UNIGRANRIO. Estou me especializando no Desenvolvimento Web focado em Front-End utilizando HTML, CSS e JavaScript.
+Olá, meu nome é Leandro e eu sou estudante do Curso de Tecnologia em Análise e Desenvolvimento de Sistemas na Universidade UNOPAR. Estou me especializando no Desenvolvimento Web focado em Front-End utilizando HTML, CSS e JavaScript.
 
-Tenho como ferramentas pré-processadores (SASS),frameworks CSS (BOOTSTRAP) automatizadores de tarefas(GULP/WEBPACK), para controle de versão (GIT) e frameworks/bibliotecas Javascript (REACT/ANGULARJS), para desenvolvimento Back-End utilizo Javascript com NodeJs.
+Tenho como ferramentas pré-processadores (SASS),frameworks CSS (BOOTSTRAP) automatizadores de tarefas(GULP/WEBPACK), para controle de versão (GIT) e frameworks/bibliotecas Javascript (REACTJS / ANGULAR), para desenvolvimento Back-End utilizo Javascript com NodeJs.
 
 Abrangendo boas práticas de codificação semântica e acessibilidade.
 
 ## Formação
-UNIGRANRIO - Tecnólogo em Analise e Desenvolvimento de Sistemas
-2º Semestre - Trancado
+UNOPAR - Tecnólogo em Analise e Desenvolvimento de Sistemas
+1º Semestre - Em curso
 
 Escola Técnica Estadual Visconde de Mauá / 2º Grau
 2000 - 2005, RIO DE JANEIRO
@@ -58,6 +58,7 @@ Auxiliar Técnico / Administrativo.
 #### Frameworks/Libs Front-end
 * ReactJS
 * AngularJS
+* Angular
 * Jquery
 * Wordpress
 
