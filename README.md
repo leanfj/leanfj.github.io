@@ -5,14 +5,16 @@
 :iphone:   +55 (21) 96883 - 6199 <br>
 :envelope:  leanfj@hotmail.com
 
-Olá, meu nome é Leandro e eu sou estudante do Curso de Tecnologia em Análise e Desenvolvimento de Sistemas na Universidade UNOPAR. Estou me especializando no Desenvolvimento Web focado em Front-End utilizando HTML, CSS e JavaScript.
+Olá, meu nome é Leandro e eu sou estudante do Curso de Tecnologia em Análise e Desenvolvimento de Sistemas na Universidade UniCarioca. Estou me especializando no Desenvolvimento Web focado em ser um profissional fullstack.
 
-Tenho como ferramentas pré-processadores (SASS),frameworks CSS (BOOTSTRAP) automatizadores de tarefas(GULP/WEBPACK), para controle de versão (GIT) e frameworks/bibliotecas Javascript (REACTJS / ANGULAR), para desenvolvimento Back-End utilizo Javascript com NodeJs.
+Meu conhecimento principal e mais avançado é dentro da stack utilizando JAVASCRIPT tanto para front end usando REACTJS e ANGULAR como no bakc end com NODEJS e EXPRESSJS.
+
+Faço uso de ferramentas como pré-processadores (SASS),frameworks CSS (BOOTSTRAP e MATERIAL-UI), automatizadores de tarefas (GULP/WEBPACK), para controle de versão (GIT)
 
 Abrangendo boas práticas de codificação semântica e acessibilidade.
 
 ## Formação
-UNOPAR - Tecnólogo em Analise e Desenvolvimento de Sistemas
+UniCarioca - Análise e Desenvolvimento de Sistemas
 1º Semestre - Em curso
 
 Escola Técnica Estadual Visconde de Mauá / 2º Grau
@@ -42,7 +44,7 @@ Auxiliar Técnico / Administrativo.
   * Inglês suficiente para ler, entender e falar
 
 #### Sistemas Operacionais
-* Linux
+* Linux 
 * Windows
 
 #### Front-end
@@ -50,6 +52,7 @@ Auxiliar Técnico / Administrativo.
 * CSS (Design Responsivo)
   * SASS
   * Arquitetura BEM
+* JavaScript
 
 #### CSS FrameWorks - UI Kits
 * Materialize
@@ -57,7 +60,6 @@ Auxiliar Técnico / Administrativo.
 
 #### Frameworks/Libs Front-end
 * ReactJS
-* AngularJS
 * Angular
 * Jquery
 * Wordpress
@@ -93,9 +95,10 @@ Auxiliar Técnico / Administrativo.
 * [Site Jardim Escola Estrela do Saber](https://leanfj.github.io/estrela-saber-ws/)
 * [Teste QConcurso](https://leanfj.github.io/qconcurso)
 * [Teste Eletric Dreams](https://leanfjed.herokuapp.com/#)  
-* [Teste Hotel Urbano](https://leanfj-weather.herokuapp.com/)  
+<!--* [Teste Hotel Urbano](https://leanfj-weather.herokuapp.com/)  -->
 * [Frontloop Challenges](https://leanfj.github.io/frontloop-challenges/)
 * [App Lista Mercado](https://leanfjlistamercado.herokuapp.com/)
+* [App Lista Mercado Nova Versão](https://lista-mercado-bacf4.firebaseapp.com)
 * [App Registro de Séries](https://leanfjprimeiroapp.herokuapp.com/)
 * [Projeto Final Curso HTML, CSS, and Javascript for Web Developers](https://leanfj.github.io/Coursera-HTML-CSS-and-Javascript-for-Web-Developers/site/)
 * [Projeto Final Apostila WD-43 Desenvolvimento Web com HTML, CSS e JavaScript](https://leanfj.github.io/CAELUM-Treinamento-Desenvolvimento-Web-com-HTML-CSS-e-JavaScript/)
