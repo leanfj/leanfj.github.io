@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/leanfj/leanfj.github.io#readme",
   "devDependencies": {
-    "bootstrap-sass": "^3.3.7",
+    "bootstrap-sass": "^3.4.1",
     "breakpoint-sass": "^2.7.1",
     "browser-sync": "^2.26.7",
     "font-awesome": "^4.7.0",
