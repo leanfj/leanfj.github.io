@@ -1,4 +1,4 @@
 This is a Brave Rewards publisher verification file.
 
 Domain: leanfj.me
-Token: 20bcb8d6170f9604f6bb0082c1ad2c9fb2b37784124afd14556a0525357f3724
+Token: e3d9bf7b331df6e21b1de6d6c2723b86a5a553cad84cb6980c7084f548d30623
